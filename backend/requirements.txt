@@ -1,0 +1,21 @@
+# FastAPI et serveur
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Analyse de données
+pandas==2.2.0
+numpy==1.26.3
+
+# Visualisation
+plotly==5.18.0
+
+# CORS (pour communication frontend-backend)
+python-dotenv==1.0.0
+
+# Validation de données
+pydantic==2.5.3
+
+# Tests (optionnel)
+pytest==7.4.4
+httpx==0.26.0

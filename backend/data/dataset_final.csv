@@ -1,0 +1,487 @@
+Country,Year,Attack Type,Target Industry,Financial Loss (in Million $),Number of Affected Users,Attack Source,Security Vulnerability Type,Defense Mechanism Used,Incident Resolution Time (in Hours)
+India,2016,Man-in-the-Middle,Banking,16.88,698249,Unknown,Social Engineering,VPN,47
+Australia,2022,Phishing,Banking,64.31,120789,Nation-state,Zero-day,Encryption,36
+Japan,2022,Ransomware,Banking,26.17,937653,Insider,Unpatched Software,Encryption,24
+Japan,2022,Phishing,Banking,98.47,972469,Nation-state,Zero-day,Antivirus,21
+Brazil,2020,Phishing,Banking,17.75,739540,Hacker Group,Zero-day,Encryption,31
+Australia,2020,DDoS,Banking,92.95,942890,Insider,Weak Passwords,Antivirus,19
+India,2020,DDoS,Banking,86.27,898655,Nation-state,Unpatched Software,AI-based Detection,10
+Brazil,2015,Phishing,Banking,43.4,191625,Hacker Group,Social Engineering,VPN,65
+UK,2016,DDoS,Banking,87.68,336376,Nation-state,Social Engineering,Firewall,11
+France,2016,DDoS,Banking,28.66,996004,Unknown,Zero-day,VPN,28
+Germany,2018,Ransomware,Banking,87.56,933028,Nation-state,Unpatched Software,VPN,25
+France,2017,Phishing,Banking,17.88,16585,Hacker Group,Unpatched Software,Encryption,12
+Russia,2022,SQL Injection,Banking,60.25,662517,Unknown,Social Engineering,Firewall,40
+Japan,2019,Malware,Banking,44.17,605166,Insider,Weak Passwords,Encryption,27
+Japan,2019,Man-in-the-Middle,Banking,41.32,645097,Nation-state,Zero-day,Firewall,36
+UK,2023,DDoS,Banking,81.26,547495,Nation-state,Weak Passwords,AI-based Detection,3
+UK,2020,Ransomware,Banking,49.23,128594,Nation-state,Weak Passwords,Firewall,53
+Australia,2022,Malware,Banking,74.77,151599,Insider,Zero-day,Encryption,18
+Germany,2018,Phishing,Banking,11.39,969684,Hacker Group,Weak Passwords,Antivirus,41
+Brazil,2020,DDoS,Banking,76.98,708549,Unknown,Weak Passwords,Encryption,37
+Japan,2020,Man-in-the-Middle,Banking,23.55,108886,Insider,Unpatched Software,Antivirus,51
+Australia,2016,Phishing,Banking,92.79,285311,Nation-state,Unpatched Software,VPN,55
+Australia,2023,Man-in-the-Middle,Banking,57.34,471743,Unknown,Zero-day,Firewall,29
+UK,2023,SQL Injection,Banking,85.64,875790,Nation-state,Unpatched Software,Firewall,36
+Russia,2023,Ransomware,Banking,42.14,222293,Hacker Group,Social Engineering,VPN,38
+Russia,2024,Malware,Banking,93.33,517610,Nation-state,Social Engineering,Firewall,35
+Germany,2021,DDoS,Banking,91.24,8787,Hacker Group,Unpatched Software,Encryption,55
+USA,2018,Phishing,Banking,55.9,618616,Insider,Zero-day,VPN,51
+Brazil,2019,SQL Injection,Banking,27.64,826256,Nation-state,Zero-day,VPN,50
+USA,2017,SQL Injection,Banking,9.08,895507,Unknown,Social Engineering,AI-based Detection,52
+Australia,2019,Man-in-the-Middle,Banking,47.67,112313,Insider,Social Engineering,Firewall,63
+Russia,2022,Phishing,Banking,85.01,923558,Insider,Weak Passwords,Encryption,41
+Germany,2024,Malware,Banking,22.84,797768,Insider,Zero-day,Firewall,58
+Brazil,2020,Malware,Banking,79.61,755029,Nation-state,Weak Passwords,Firewall,27
+Brazil,2017,Malware,Banking,99.22,660182,Insider,Weak Passwords,AI-based Detection,21
+Brazil,2023,Man-in-the-Middle,Banking,20.15,376174,Unknown,Social Engineering,Firewall,43
+France,2024,Ransomware,Banking,78.82,759804,Unknown,Unpatched Software,AI-based Detection,47
+China,2019,Phishing,Banking,49.14,341100,Insider,Social Engineering,Firewall,37
+Japan,2020,Malware,Banking,15.73,762662,Hacker Group,Zero-day,Firewall,56
+Japan,2023,Ransomware,Banking,52.86,261038,Nation-state,Social Engineering,Encryption,48
+Brazil,2018,Phishing,Banking,98.75,316891,Hacker Group,Social Engineering,Antivirus,55
+UK,2017,SQL Injection,Banking,73.88,8385,Nation-state,Social Engineering,AI-based Detection,69
+Russia,2024,Ransomware,Banking,52.8,21810,Insider,Zero-day,VPN,48
+Japan,2021,DDoS,Banking,32.84,311274,Hacker Group,Zero-day,Encryption,67
+India,2019,DDoS,Banking,46.98,147761,Unknown,Unpatched Software,AI-based Detection,68
+Russia,2024,Ransomware,Banking,80.11,923911,Insider,Unpatched Software,Firewall,60
+Japan,2015,SQL Injection,Banking,20.69,344789,Unknown,Zero-day,AI-based Detection,69
+UK,2021,DDoS,Banking,97.03,100486,Nation-state,Unpatched Software,Firewall,31
+France,2018,Phishing,Banking,89.77,134364,Nation-state,Zero-day,Antivirus,63
+Germany,2015,Phishing,Banking,58.78,861637,Unknown,Social Engineering,VPN,15
+Brazil,2024,DDoS,Banking,55.73,750979,Unknown,Social Engineering,AI-based Detection,30
+Australia,2019,Phishing,Banking,37.07,902654,Insider,Social Engineering,Antivirus,9
+China,2022,Malware,Banking,21.87,741153,Insider,Social Engineering,Encryption,66
+Australia,2021,Malware,Banking,13.99,689681,Nation-state,Weak Passwords,AI-based Detection,62
+China,2016,Man-in-the-Middle,Banking,97.28,86038,Insider,Weak Passwords,Encryption,19
+UK,2017,Phishing,Banking,52.31,259706,Hacker Group,Social Engineering,Antivirus,2
+Russia,2018,Malware,Banking,17.99,593009,Unknown,Social Engineering,Firewall,27
+Germany,2023,SQL Injection,Banking,30.68,933754,Insider,Social Engineering,Firewall,36
+Russia,2020,Man-in-the-Middle,Banking,54.03,110260,Unknown,Weak Passwords,VPN,66
+UK,2015,Ransomware,Banking,13.49,345825,Hacker Group,Zero-day,AI-based Detection,6
+USA,2018,SQL Injection,Banking,63.8,341383,Nation-state,Weak Passwords,Antivirus,9
+Japan,2020,Ransomware,Banking,40.86,565080,Unknown,Zero-day,Encryption,6
+Germany,2019,Malware,Banking,79.24,862136,Hacker Group,Zero-day,VPN,44
+Brazil,2022,Phishing,Banking,75.01,771434,Hacker Group,Social Engineering,AI-based Detection,38
+Australia,2016,SQL Injection,Banking,1.73,91560,Hacker Group,Weak Passwords,AI-based Detection,35
+Brazil,2024,SQL Injection,Banking,33.06,644841,Insider,Weak Passwords,Antivirus,64
+Japan,2017,Man-in-the-Middle,Banking,79.68,712646,Nation-state,Unpatched Software,AI-based Detection,50
+UK,2023,Malware,Banking,55.34,259176,Unknown,Unpatched Software,VPN,3
+China,2022,Man-in-the-Middle,Banking,12.36,987115,Unknown,Social Engineering,Encryption,55
+Brazil,2022,Phishing,Banking,98.06,884502,Insider,Unpatched Software,AI-based Detection,55
+UK,2021,Ransomware,Banking,79.33,555527,Unknown,Unpatched Software,Firewall,33
+Russia,2019,SQL Injection,Banking,59.78,681856,Insider,Zero-day,VPN,52
+USA,2018,Man-in-the-Middle,Banking,85.29,685291,Hacker Group,Social Engineering,Encryption,53
+Germany,2023,Malware,Banking,70.19,791366,Unknown,Unpatched Software,Firewall,61
+China,2019,Ransomware,Banking,32.69,713584,Insider,Weak Passwords,Firewall,26
+USA,2019,Ransomware,Banking,22.62,51219,Unknown,Zero-day,Encryption,36
+France,2024,Phishing,Banking,26.29,314347,Hacker Group,Unpatched Software,Antivirus,28
+Brazil,2021,DDoS,Banking,14.72,126781,Insider,Weak Passwords,Antivirus,32
+Russia,2020,DDoS,Banking,33.99,851863,Insider,Weak Passwords,Firewall,25
+France,2018,Ransomware,Banking,27.78,355077,Nation-state,Unpatched Software,VPN,65
+UK,2020,Ransomware,Banking,16.91,952504,Hacker Group,Zero-day,AI-based Detection,45
+France,2019,Man-in-the-Middle,Banking,28.29,929020,Nation-state,Weak Passwords,Antivirus,2
+Germany,2021,Man-in-the-Middle,Banking,37.69,361849,Hacker Group,Zero-day,Firewall,63
+USA,2017,Ransomware,Banking,42.19,157313,Hacker Group,Unpatched Software,Antivirus,47
+France,2021,SQL Injection,Banking,62.9,577763,Insider,Zero-day,AI-based Detection,43
+UK,2020,Phishing,Banking,84.77,812206,Hacker Group,Unpatched Software,Encryption,39
+Australia,2021,Man-in-the-Middle,Banking,82.87,255967,Unknown,Social Engineering,VPN,23
+USA,2017,SQL Injection,Banking,39.59,910393,Unknown,Weak Passwords,Antivirus,52
+Australia,2024,Phishing,Banking,70.52,601198,Insider,Zero-day,Encryption,41
+Germany,2018,Malware,Banking,63.81,347441,Hacker Group,Social Engineering,Firewall,58
+Brazil,2018,Man-in-the-Middle,Banking,1.01,66191,Hacker Group,Weak Passwords,AI-based Detection,71
+India,2017,Ransomware,Banking,9.81,489620,Unknown,Unpatched Software,VPN,43
+Germany,2018,Man-in-the-Middle,Banking,81.46,316299,Insider,Social Engineering,Firewall,66
+USA,2015,Ransomware,Banking,33.75,58037,Insider,Social Engineering,VPN,13
+UK,2023,Malware,Banking,16.02,452477,Hacker Group,Zero-day,Encryption,23
+India,2018,Ransomware,Banking,11.19,168881,Insider,Social Engineering,AI-based Detection,5
+France,2022,Ransomware,Banking,54.47,604250,Unknown,Social Engineering,AI-based Detection,63
+India,2024,Phishing,Banking,23.32,879162,Unknown,Zero-day,VPN,38
+India,2022,Man-in-the-Middle,Banking,90.87,928859,Unknown,Unpatched Software,Firewall,32
+Russia,2015,DDoS,Banking,40.64,259321,Nation-state,Social Engineering,AI-based Detection,62
+Brazil,2022,Man-in-the-Middle,Banking,59.43,121504,Insider,Weak Passwords,AI-based Detection,32
+France,2018,DDoS,Banking,50.75,670630,Nation-state,Zero-day,Antivirus,4
+China,2024,Ransomware,Banking,72.18,277175,Insider,Social Engineering,Firewall,72
+UK,2021,DDoS,Banking,8.82,736601,Nation-state,Zero-day,AI-based Detection,26
+China,2024,Man-in-the-Middle,Banking,16.09,72940,Nation-state,Zero-day,VPN,26
+Japan,2024,Ransomware,Banking,24.22,584428,Nation-state,Weak Passwords,Firewall,34
+Brazil,2022,Ransomware,Banking,15.66,817169,Insider,Unpatched Software,Firewall,54
+UK,2016,Man-in-the-Middle,Banking,76.06,530253,Unknown,Weak Passwords,Encryption,28
+Russia,2021,Ransomware,Banking,34.92,501490,Insider,Social Engineering,Firewall,44
+India,2016,Malware,Banking,11.81,392365,Insider,Social Engineering,Antivirus,72
+UK,2019,Man-in-the-Middle,Banking,76.03,422890,Insider,Social Engineering,VPN,4
+Australia,2020,Malware,Banking,42.3,497035,Hacker Group,Zero-day,AI-based Detection,66
+Japan,2020,Phishing,Banking,73.04,512431,Nation-state,Unpatched Software,VPN,44
+India,2018,Phishing,Banking,96.59,206552,Nation-state,Weak Passwords,Encryption,13
+France,2016,Phishing,Banking,54.5,511287,Unknown,Unpatched Software,Antivirus,34
+Germany,2023,SQL Injection,Banking,94.48,426499,Unknown,Unpatched Software,VPN,37
+India,2023,Ransomware,Banking,83.18,397813,Nation-state,Social Engineering,Antivirus,12
+France,2024,Ransomware,Banking,70.98,185001,Insider,Zero-day,VPN,3
+Australia,2020,Man-in-the-Middle,Banking,56.34,407084,Unknown,Unpatched Software,Firewall,11
+India,2023,SQL Injection,Banking,48.53,421083,Insider,Unpatched Software,AI-based Detection,28
+China,2022,DDoS,Banking,79.07,880586,Hacker Group,Unpatched Software,VPN,56
+Australia,2017,DDoS,Banking,62.81,810106,Hacker Group,Weak Passwords,Encryption,66
+China,2020,DDoS,Banking,11.72,81518,Nation-state,Social Engineering,VPN,47
+Japan,2017,SQL Injection,Banking,66.81,966993,Hacker Group,Social Engineering,VPN,64
+USA,2017,Phishing,Banking,96.27,637264,Hacker Group,Unpatched Software,AI-based Detection,11
+Russia,2021,DDoS,Banking,45.6,759356,Insider,Social Engineering,VPN,1
+Australia,2024,Phishing,Banking,14.97,214740,Nation-state,Unpatched Software,Encryption,57
+India,2024,Phishing,Banking,64.23,903871,Nation-state,Unpatched Software,Encryption,17
+UK,2020,SQL Injection,Banking,47.67,729265,Unknown,Zero-day,Firewall,42
+India,2023,DDoS,Banking,23.83,557428,Insider,Unpatched Software,VPN,38
+Japan,2015,DDoS,Banking,59.13,182440,Insider,Zero-day,Firewall,8
+USA,2024,SQL Injection,Banking,7.2,312607,Hacker Group,Weak Passwords,Antivirus,24
+Russia,2017,Phishing,Banking,94.15,963192,Hacker Group,Weak Passwords,VPN,7
+Australia,2017,Phishing,Banking,90.5,42278,Insider,Weak Passwords,AI-based Detection,45
+Russia,2022,Malware,Banking,39.62,850339,Hacker Group,Social Engineering,Firewall,50
+Brazil,2018,Ransomware,Banking,30.61,910960,Nation-state,Social Engineering,Antivirus,31
+China,2018,Ransomware,Banking,43.98,386308,Nation-state,Weak Passwords,Antivirus,3
+Australia,2017,Man-in-the-Middle,Banking,54.38,100855,Unknown,Social Engineering,VPN,2
+UK,2015,Ransomware,Banking,79.3,893277,Unknown,Social Engineering,Firewall,15
+UK,2019,Phishing,Banking,60.07,197590,Insider,Zero-day,Encryption,62
+Japan,2017,Ransomware,Banking,50.75,53111,Hacker Group,Social Engineering,Antivirus,15
+Brazil,2023,Phishing,Banking,71.86,151590,Nation-state,Zero-day,Antivirus,30
+Germany,2022,Phishing,Banking,14.79,407151,Unknown,Weak Passwords,Antivirus,37
+China,2018,Malware,Banking,68.55,59979,Insider,Zero-day,Firewall,41
+Germany,2021,DDoS,Banking,1.62,823004,Nation-state,Zero-day,Encryption,22
+Russia,2017,Phishing,Banking,3.2,982243,Insider,Zero-day,Encryption,6
+UK,2019,DDoS,Banking,80.68,19007,Nation-state,Unpatched Software,VPN,29
+Germany,2017,Malware,Banking,97.68,906914,Hacker Group,Zero-day,AI-based Detection,15
+Russia,2018,SQL Injection,Banking,59.29,380543,Unknown,Weak Passwords,VPN,26
+India,2019,Malware,Banking,37.03,358371,Insider,Weak Passwords,AI-based Detection,30
+France,2023,Malware,Banking,9.99,116840,Unknown,Zero-day,Firewall,51
+Australia,2018,SQL Injection,Banking,40.11,874040,Unknown,Social Engineering,Firewall,6
+Japan,2015,Malware,Banking,2.63,418914,Nation-state,Unpatched Software,Firewall,53
+India,2015,Man-in-the-Middle,Banking,97.28,694308,Nation-state,Weak Passwords,VPN,66
+Brazil,2023,Phishing,Banking,69.45,852592,Nation-state,Zero-day,AI-based Detection,12
+India,2019,SQL Injection,Banking,68.44,186842,Nation-state,Zero-day,VPN,40
+UK,2018,DDoS,Banking,8.81,198929,Nation-state,Weak Passwords,AI-based Detection,41
+Japan,2015,Phishing,Banking,87.5,429920,Nation-state,Zero-day,Encryption,37
+Russia,2020,Phishing,Banking,98.38,355505,Nation-state,Unpatched Software,AI-based Detection,35
+Brazil,2019,Ransomware,Banking,10.1,47737,Hacker Group,Social Engineering,Encryption,69
+Russia,2021,Man-in-the-Middle,Banking,18.66,292992,Insider,Zero-day,Encryption,15
+Australia,2019,DDoS,Banking,29.85,949862,Hacker Group,Weak Passwords,Firewall,25
+India,2019,Phishing,Banking,18.42,289539,Nation-state,Unpatched Software,Antivirus,27
+Australia,2019,DDoS,Banking,1.27,588345,Insider,Unpatched Software,Firewall,49
+Brazil,2019,Man-in-the-Middle,Banking,14.64,880671,Hacker Group,Social Engineering,Firewall,66
+Brazil,2017,Phishing,Banking,9.25,437974,Hacker Group,Zero-day,Encryption,20
+Australia,2024,DDoS,Banking,21.11,18766,Insider,Weak Passwords,Firewall,43
+France,2020,Malware,Banking,50.19,760230,Nation-state,Zero-day,VPN,56
+Brazil,2017,SQL Injection,Banking,66.78,698892,Unknown,Zero-day,AI-based Detection,24
+India,2020,Man-in-the-Middle,Banking,59.67,747418,Insider,Unpatched Software,VPN,20
+France,2015,Phishing,Banking,64.62,104619,Insider,Unpatched Software,Antivirus,68
+USA,2020,Phishing,Banking,74.51,332766,Hacker Group,Weak Passwords,Antivirus,53
+India,2016,Phishing,Banking,43.81,250482,Insider,Weak Passwords,VPN,20
+Brazil,2021,DDoS,Banking,84.41,230110,Unknown,Social Engineering,Antivirus,51
+Japan,2016,Phishing,Banking,82.93,36797,Insider,Unpatched Software,VPN,2
+India,2015,SQL Injection,Banking,95.81,42883,Unknown,Zero-day,Encryption,37
+USA,2020,Phishing,Banking,44.08,708034,Unknown,Zero-day,AI-based Detection,39
+Japan,2015,SQL Injection,Banking,73.94,274703,Nation-state,Social Engineering,Encryption,6
+Germany,2020,DDoS,Banking,64.64,735855,Insider,Unpatched Software,Firewall,23
+Germany,2017,Phishing,Banking,69.85,253058,Hacker Group,Social Engineering,Encryption,44
+China,2023,SQL Injection,Banking,2.46,95779,Nation-state,Zero-day,VPN,43
+UK,2020,SQL Injection,Banking,73.69,522097,Hacker Group,Weak Passwords,VPN,63
+Germany,2018,SQL Injection,Banking,81.33,508544,Insider,Unpatched Software,VPN,45
+UK,2016,DDoS,Banking,61.15,219846,Insider,Social Engineering,AI-based Detection,13
+Russia,2023,Phishing,Banking,9.24,612761,Nation-state,Unpatched Software,Encryption,71
+UK,2019,SQL Injection,Banking,79.34,455556,Insider,Social Engineering,Firewall,1
+Australia,2021,Ransomware,Banking,24.33,77845,Insider,Social Engineering,AI-based Detection,26
+Germany,2018,Man-in-the-Middle,Banking,23.32,524693,Unknown,Unpatched Software,VPN,63
+Germany,2023,Man-in-the-Middle,Banking,80.97,289046,Nation-state,Zero-day,Encryption,41
+France,2022,Phishing,Banking,69.99,366596,Insider,Weak Passwords,AI-based Detection,65
+Japan,2020,SQL Injection,Banking,70.14,575065,Insider,Weak Passwords,Encryption,61
+Russia,2022,Ransomware,Banking,50.11,851222,Insider,Weak Passwords,Encryption,16
+France,2016,DDoS,Banking,25.81,132286,Insider,Unpatched Software,Antivirus,66
+France,2023,SQL Injection,Banking,46.58,659062,Unknown,Unpatched Software,Antivirus,42
+UK,2019,Phishing,Banking,84.5,828382,Hacker Group,Weak Passwords,AI-based Detection,4
+Australia,2019,Phishing,Banking,1.13,507976,Hacker Group,Zero-day,AI-based Detection,70
+India,2018,DDoS,Banking,43.45,180980,Hacker Group,Unpatched Software,AI-based Detection,15
+Germany,2020,SQL Injection,Banking,65.24,202102,Insider,Unpatched Software,Antivirus,54
+India,2015,Ransomware,Banking,81.81,41635,Nation-state,Unpatched Software,Encryption,37
+China,2021,Man-in-the-Middle,Banking,85.26,812101,Insider,Social Engineering,VPN,52
+Germany,2017,Man-in-the-Middle,Banking,88.03,587213,Unknown,Weak Passwords,AI-based Detection,32
+France,2017,Phishing,Banking,15.14,276541,Hacker Group,Social Engineering,AI-based Detection,16
+Germany,2022,Phishing,Banking,31.73,397919,Nation-state,Social Engineering,Encryption,22
+India,2020,SQL Injection,Banking,89.8,895388,Insider,Social Engineering,AI-based Detection,54
+Russia,2024,Man-in-the-Middle,Banking,93.13,414192,Nation-state,Weak Passwords,Firewall,34
+UK,2022,Phishing,Banking,18.45,848022,Hacker Group,Social Engineering,Antivirus,10
+Australia,2017,SQL Injection,Banking,7.21,526324,Insider,Unpatched Software,VPN,39
+Japan,2020,Phishing,Banking,39.33,257190,Insider,Unpatched Software,Encryption,14
+Brazil,2020,Ransomware,Banking,99.9,429566,Nation-state,Zero-day,AI-based Detection,54
+USA,2016,Phishing,Banking,38.58,447486,Insider,Weak Passwords,Encryption,7
+Russia,2024,Ransomware,Banking,80.29,507258,Nation-state,Social Engineering,Antivirus,30
+Australia,2020,Ransomware,Banking,97.48,647303,Insider,Zero-day,Antivirus,37
+UK,2021,Ransomware,Banking,4.22,65148,Nation-state,Weak Passwords,VPN,15
+USA,2021,Man-in-the-Middle,Banking,64.96,485702,Unknown,Unpatched Software,Firewall,51
+USA,2018,DDoS,Banking,31.54,513005,Unknown,Social Engineering,VPN,62
+Brazil,2021,DDoS,Banking,96.23,649383,Unknown,Weak Passwords,Encryption,59
+Germany,2022,SQL Injection,Banking,89.74,155736,Nation-state,Social Engineering,Encryption,63
+France,2021,Ransomware,Banking,27.1,199832,Nation-state,Weak Passwords,Antivirus,54
+USA,2019,Ransomware,Banking,47.25,451510,Hacker Group,Zero-day,VPN,45
+UK,2016,Ransomware,Banking,92.39,61764,Hacker Group,Social Engineering,Encryption,38
+UK,2015,SQL Injection,Banking,6.96,474585,Nation-state,Unpatched Software,Firewall,34
+India,2018,Phishing,Banking,71.58,31733,Hacker Group,Unpatched Software,Encryption,49
+Australia,2022,Man-in-the-Middle,Banking,34.16,346224,Nation-state,Zero-day,Encryption,64
+Russia,2017,SQL Injection,Banking,33.84,442940,Nation-state,Unpatched Software,AI-based Detection,7
+India,2015,Malware,Banking,34.51,970056,Hacker Group,Unpatched Software,Firewall,30
+Australia,2018,SQL Injection,Banking,20.28,363414,Insider,Unpatched Software,Antivirus,59
+India,2021,Man-in-the-Middle,Banking,55.12,942454,Hacker Group,Social Engineering,VPN,66
+UK,2015,Phishing,Banking,39.12,893284,Unknown,Unpatched Software,AI-based Detection,21
+France,2015,Phishing,Banking,95.72,551812,Insider,Weak Passwords,Encryption,69
+Russia,2023,DDoS,Banking,33.51,615332,Hacker Group,Social Engineering,AI-based Detection,65
+Japan,2019,DDoS,Banking,81.89,920270,Nation-state,Unpatched Software,Antivirus,20
+France,2023,SQL Injection,Banking,48.1,360752,Unknown,Zero-day,Antivirus,21
+UK,2024,Man-in-the-Middle,Banking,14.84,817793,Hacker Group,Social Engineering,VPN,64
+India,2015,Man-in-the-Middle,Banking,38.1,187807,Nation-state,Unpatched Software,VPN,37
+Japan,2023,Phishing,Banking,75.13,85528,Hacker Group,Social Engineering,VPN,55
+France,2021,Man-in-the-Middle,Banking,4.94,71156,Insider,Social Engineering,Encryption,34
+Japan,2021,Phishing,Banking,82.85,854309,Insider,Zero-day,Antivirus,16
+Germany,2018,DDoS,Banking,48.76,754656,Hacker Group,Unpatched Software,VPN,35
+France,2020,Malware,Banking,12.25,162930,Insider,Unpatched Software,Firewall,13
+UK,2024,Phishing,Banking,30.39,156576,Hacker Group,Unpatched Software,VPN,72
+Australia,2018,Ransomware,Banking,50.64,874035,Insider,Unpatched Software,Antivirus,38
+UK,2015,Man-in-the-Middle,Banking,64.88,976213,Unknown,Social Engineering,Firewall,28
+USA,2020,Ransomware,Banking,27.45,60428,Nation-state,Weak Passwords,Antivirus,27
+USA,2018,Phishing,Banking,89.74,279786,Insider,Zero-day,VPN,46
+Germany,2024,Man-in-the-Middle,Banking,53.51,680154,Nation-state,Zero-day,Firewall,2
+USA,2018,DDoS,Banking,10.01,327826,Hacker Group,Social Engineering,AI-based Detection,35
+UK,2022,Phishing,Banking,57.89,135941,Nation-state,Social Engineering,AI-based Detection,7
+China,2016,Ransomware,Banking,94.63,455702,Hacker Group,Weak Passwords,Antivirus,5
+Germany,2022,Malware,Banking,59.7,258587,Insider,Social Engineering,VPN,7
+Brazil,2015,Phishing,Banking,29.61,593384,Unknown,Zero-day,Firewall,65
+Russia,2024,SQL Injection,Banking,79.98,84185,Nation-state,Weak Passwords,VPN,2
+UK,2020,Phishing,Banking,3.84,241282,Hacker Group,Social Engineering,Encryption,55
+USA,2020,DDoS,Banking,99.81,948174,Unknown,Social Engineering,AI-based Detection,4
+China,2016,DDoS,Banking,76.9,605118,Insider,Social Engineering,Firewall,30
+China,2016,SQL Injection,Banking,63.67,385872,Insider,Zero-day,Firewall,50
+Russia,2021,SQL Injection,Banking,80.68,983047,Hacker Group,Unpatched Software,Antivirus,19
+USA,2023,Malware,Banking,35.91,91974,Hacker Group,Zero-day,AI-based Detection,41
+China,2023,Phishing,Banking,15.21,597516,Nation-state,Unpatched Software,Antivirus,15
+France,2018,SQL Injection,Banking,32.84,77096,Unknown,Weak Passwords,VPN,29
+China,2023,Phishing,Banking,33.27,133315,Nation-state,Weak Passwords,AI-based Detection,25
+UK,2020,Ransomware,Banking,98.07,795120,Unknown,Social Engineering,Firewall,42
+Australia,2019,Ransomware,Banking,15.21,126770,Insider,Weak Passwords,Encryption,67
+Australia,2020,Man-in-the-Middle,Banking,34.59,427407,Unknown,Unpatched Software,Encryption,47
+USA,2021,Phishing,Banking,28.75,959107,Unknown,Zero-day,Antivirus,35
+Germany,2021,Man-in-the-Middle,Banking,14.45,292854,Nation-state,Unpatched Software,AI-based Detection,14
+USA,2023,Malware,Banking,66.06,189116,Insider,Social Engineering,AI-based Detection,53
+UK,2021,Phishing,Banking,44.7,408446,Insider,Social Engineering,VPN,43
+USA,2022,Man-in-the-Middle,Banking,65.51,977913,Hacker Group,Weak Passwords,Antivirus,70
+Brazil,2015,DDoS,Banking,18.87,976838,Unknown,Weak Passwords,Firewall,65
+Brazil,2020,Phishing,Banking,21.65,434936,Hacker Group,Zero-day,Encryption,24
+Australia,2015,Malware,Banking,8.24,242247,Insider,Social Engineering,Antivirus,29
+Brazil,2020,Phishing,Banking,34.5,372427,Insider,Weak Passwords,VPN,72
+USA,2016,Malware,Banking,36.2,194553,Hacker Group,Social Engineering,AI-based Detection,48
+India,2019,DDoS,Banking,58.96,891815,Unknown,Weak Passwords,Antivirus,19
+China,2020,Ransomware,Banking,98.05,168617,Hacker Group,Unpatched Software,VPN,16
+USA,2023,SQL Injection,Banking,30.66,749609,Nation-state,Zero-day,AI-based Detection,28
+Australia,2017,Malware,Banking,92.65,817255,Hacker Group,Weak Passwords,Antivirus,62
+Australia,2021,Man-in-the-Middle,Banking,82.04,828293,Insider,Weak Passwords,Antivirus,64
+France,2015,DDoS,Banking,85.36,50427,Hacker Group,Zero-day,Encryption,5
+Brazil,2019,Ransomware,Banking,88.63,701522,Insider,Social Engineering,VPN,10
+India,2022,Man-in-the-Middle,Banking,32.47,947465,Unknown,Unpatched Software,AI-based Detection,69
+Russia,2021,DDoS,Banking,94.48,281900,Hacker Group,Zero-day,Antivirus,1
+China,2019,Man-in-the-Middle,Banking,81.8,277875,Nation-state,Social Engineering,Antivirus,43
+Brazil,2016,Man-in-the-Middle,Banking,43.45,489853,Nation-state,Zero-day,AI-based Detection,28
+USA,2023,Malware,Banking,13.99,109083,Nation-state,Weak Passwords,Antivirus,49
+Australia,2018,SQL Injection,Banking,71.01,840106,Insider,Weak Passwords,VPN,44
+France,2022,DDoS,Banking,51.33,970775,Insider,Unpatched Software,AI-based Detection,21
+Russia,2019,Malware,Banking,55.42,945465,Unknown,Weak Passwords,Firewall,5
+UK,2021,Malware,Banking,73.02,731722,Hacker Group,Weak Passwords,VPN,28
+Germany,2018,Phishing,Banking,88.73,436597,Insider,Unpatched Software,AI-based Detection,33
+USA,2015,SQL Injection,Banking,42.77,117454,Insider,Unpatched Software,Firewall,19
+France,2019,SQL Injection,Banking,98.04,278315,Unknown,Unpatched Software,VPN,3
+India,2019,Ransomware,Banking,89.41,453441,Hacker Group,Unpatched Software,VPN,29
+Russia,2019,Man-in-the-Middle,Banking,26.02,565292,Insider,Unpatched Software,Antivirus,27
+France,2015,Malware,Banking,20.27,987350,Insider,Zero-day,Antivirus,4
+China,2021,Man-in-the-Middle,Banking,33.3,935265,Nation-state,Unpatched Software,Firewall,20
+Japan,2023,SQL Injection,Banking,43.96,459922,Nation-state,Zero-day,Encryption,12
+UK,2020,Ransomware,Banking,53.03,528708,Unknown,Social Engineering,VPN,14
+Germany,2015,Malware,Banking,56.13,526658,Nation-state,Weak Passwords,VPN,38
+India,2022,DDoS,Banking,13.97,762440,Nation-state,Unpatched Software,AI-based Detection,19
+China,2021,Malware,Banking,92.2,248859,Nation-state,Social Engineering,Antivirus,33
+China,2015,Man-in-the-Middle,Banking,66.47,623301,Hacker Group,Social Engineering,VPN,40
+Russia,2015,Phishing,Banking,4.59,720643,Unknown,Social Engineering,Firewall,19
+USA,2017,DDoS,Banking,98.07,276199,Insider,Weak Passwords,Antivirus,28
+UK,2020,SQL Injection,Banking,40.31,760892,Hacker Group,Zero-day,VPN,22
+Russia,2023,Ransomware,Banking,54.09,514319,Hacker Group,Zero-day,Firewall,37
+Germany,2017,Phishing,Banking,10.56,556014,Nation-state,Unpatched Software,Encryption,11
+USA,2018,Phishing,Banking,29.35,724633,Hacker Group,Weak Passwords,Encryption,26
+Japan,2021,Phishing,Banking,94.32,755165,Hacker Group,Social Engineering,Antivirus,28
+China,2024,DDoS,Banking,99.99,755185,Unknown,Weak Passwords,Encryption,20
+Brazil,2021,Man-in-the-Middle,Banking,3.69,566386,Insider,Unpatched Software,Encryption,45
+Australia,2022,Ransomware,Banking,32.56,979382,Nation-state,Social Engineering,Antivirus,43
+Russia,2022,Man-in-the-Middle,Banking,53.95,846546,Unknown,Unpatched Software,VPN,51
+Brazil,2016,Man-in-the-Middle,Banking,70.89,378949,Unknown,Weak Passwords,AI-based Detection,67
+France,2021,Malware,Banking,47.14,169113,Insider,Weak Passwords,VPN,55
+UK,2019,Man-in-the-Middle,Banking,22.94,844953,Unknown,Weak Passwords,Antivirus,53
+Japan,2017,Malware,Banking,9.76,122728,Unknown,Zero-day,AI-based Detection,7
+USA,2016,Man-in-the-Middle,Banking,20.44,981595,Nation-state,Weak Passwords,Encryption,56
+France,2020,Phishing,Banking,13.38,934436,Unknown,Unpatched Software,Firewall,64
+China,2020,SQL Injection,Banking,80.98,708357,Unknown,Weak Passwords,Antivirus,49
+Australia,2021,SQL Injection,Banking,92.66,49085,Hacker Group,Weak Passwords,VPN,32
+Germany,2020,DDoS,Banking,76.53,46824,Hacker Group,Social Engineering,VPN,39
+Germany,2016,Man-in-the-Middle,Banking,3.57,882784,Insider,Weak Passwords,VPN,31
+France,2015,DDoS,Banking,51.64,538890,Nation-state,Zero-day,Antivirus,59
+France,2015,Phishing,Banking,83.27,288526,Hacker Group,Unpatched Software,Encryption,66
+Germany,2019,SQL Injection,Banking,77.65,989592,Insider,Weak Passwords,Antivirus,49
+Germany,2023,Phishing,Banking,39.53,339645,Unknown,Weak Passwords,AI-based Detection,2
+Australia,2024,DDoS,Banking,88.79,810930,Insider,Weak Passwords,AI-based Detection,30
+France,2017,Phishing,Banking,77.41,654122,Nation-state,Social Engineering,AI-based Detection,68
+Brazil,2021,Man-in-the-Middle,Banking,81.68,893986,Insider,Unpatched Software,Firewall,47
+India,2019,DDoS,Banking,35.31,961173,Insider,Social Engineering,VPN,37
+Brazil,2021,Malware,Banking,34.68,786462,Unknown,Weak Passwords,Firewall,17
+Japan,2021,DDoS,Banking,74.26,81354,Insider,Weak Passwords,Firewall,6
+UK,2021,Phishing,Banking,88.38,281387,Hacker Group,Social Engineering,Firewall,55
+France,2015,Malware,Banking,30.15,205850,Insider,Unpatched Software,Firewall,72
+China,2023,Man-in-the-Middle,Banking,3.47,194670,Nation-state,Social Engineering,Firewall,29
+USA,2023,DDoS,Banking,53.59,750875,Nation-state,Weak Passwords,Encryption,30
+India,2023,Phishing,Banking,87.62,210006,Nation-state,Social Engineering,VPN,27
+Australia,2018,DDoS,Banking,64.29,113775,Insider,Weak Passwords,AI-based Detection,14
+India,2021,Ransomware,Banking,54.97,798498,Nation-state,Zero-day,VPN,54
+USA,2018,DDoS,Banking,6.61,646433,Insider,Social Engineering,Firewall,37
+Germany,2016,DDoS,Banking,44.17,236438,Hacker Group,Weak Passwords,Antivirus,24
+Brazil,2021,SQL Injection,Banking,50.61,772512,Hacker Group,Weak Passwords,Encryption,42
+India,2016,SQL Injection,Banking,4.31,520308,Insider,Zero-day,VPN,39
+Russia,2018,Man-in-the-Middle,Banking,86.87,800683,Nation-state,Unpatched Software,Firewall,57
+Australia,2017,Malware,Banking,25.76,801821,Unknown,Weak Passwords,AI-based Detection,18
+Germany,2018,DDoS,Banking,81.34,52799,Insider,Zero-day,AI-based Detection,38
+France,2016,Ransomware,Banking,62.73,596776,Nation-state,Zero-day,Firewall,17
+Brazil,2015,Man-in-the-Middle,Banking,74.27,551388,Unknown,Unpatched Software,Encryption,51
+India,2017,DDoS,Banking,45.98,538245,Hacker Group,Weak Passwords,AI-based Detection,18
+Brazil,2020,SQL Injection,Banking,68.05,912770,Unknown,Zero-day,AI-based Detection,67
+UK,2023,Man-in-the-Middle,Banking,15.01,416522,Insider,Social Engineering,VPN,63
+Russia,2021,Phishing,Banking,78.45,56333,Unknown,Social Engineering,VPN,8
+Japan,2017,SQL Injection,Banking,18.01,295917,Unknown,Weak Passwords,VPN,57
+Germany,2021,Phishing,Banking,48.0,170032,Nation-state,Social Engineering,Encryption,24
+India,2016,Ransomware,Banking,93.74,339815,Insider,Weak Passwords,Firewall,58
+Russia,2020,Ransomware,Banking,13.66,820140,Insider,Social Engineering,VPN,63
+China,2015,Phishing,Banking,18.39,541829,Nation-state,Zero-day,Antivirus,33
+China,2017,Man-in-the-Middle,Banking,62.39,855974,Unknown,Social Engineering,VPN,44
+Japan,2023,Man-in-the-Middle,Banking,65.8,193620,Nation-state,Zero-day,VPN,67
+China,2024,SQL Injection,Banking,58.32,777684,Unknown,Zero-day,VPN,31
+France,2017,Malware,Banking,40.87,719537,Nation-state,Zero-day,AI-based Detection,23
+India,2016,Man-in-the-Middle,Banking,15.28,995025,Unknown,Weak Passwords,AI-based Detection,52
+UK,2018,Malware,Banking,41.34,82287,Unknown,Unpatched Software,Encryption,61
+Germany,2023,Ransomware,Banking,52.88,982507,Unknown,Unpatched Software,Encryption,39
+Japan,2024,SQL Injection,Banking,67.37,521384,Unknown,Social Engineering,Antivirus,32
+USA,2020,DDoS,Banking,60.2,998937,Nation-state,Zero-day,Antivirus,19
+Japan,2023,Phishing,Banking,82.36,612815,Insider,Zero-day,Antivirus,12
+India,2023,Ransomware,Banking,57.15,704230,Nation-state,Zero-day,VPN,71
+China,2017,Man-in-the-Middle,Banking,47.52,83617,Insider,Unpatched Software,AI-based Detection,64
+Brazil,2018,Malware,Banking,87.13,99178,Nation-state,Unpatched Software,Antivirus,27
+UK,2017,Malware,Banking,11.25,636273,Insider,Zero-day,Antivirus,30
+Russia,2017,Man-in-the-Middle,Banking,66.53,45277,Insider,Social Engineering,Firewall,43
+Brazil,2018,Malware,Banking,3.1,458185,Insider,Social Engineering,AI-based Detection,31
+Russia,2021,Man-in-the-Middle,Banking,44.32,634390,Unknown,Zero-day,Antivirus,54
+Germany,2016,Malware,Banking,84.54,517353,Nation-state,Social Engineering,Antivirus,41
+Germany,2023,Man-in-the-Middle,Banking,92.48,1326,Nation-state,Social Engineering,Antivirus,11
+UK,2015,Phishing,Banking,51.38,630931,Insider,Zero-day,AI-based Detection,48
+France,2015,Man-in-the-Middle,Banking,27.2,559841,Nation-state,Unpatched Software,VPN,22
+Germany,2022,SQL Injection,Banking,52.91,619669,Unknown,Unpatched Software,Antivirus,19
+UK,2017,Phishing,Banking,1.54,31262,Unknown,Social Engineering,Firewall,56
+Russia,2016,Malware,Banking,3.6,661377,Hacker Group,Weak Passwords,Antivirus,66
+China,2017,SQL Injection,Banking,29.39,206897,Unknown,Zero-day,Encryption,18
+Brazil,2022,SQL Injection,Banking,5.85,52649,Nation-state,Unpatched Software,Encryption,57
+Brazil,2018,Malware,Banking,31.56,940038,Hacker Group,Zero-day,Antivirus,24
+Brazil,2015,SQL Injection,Banking,89.39,988268,Unknown,Zero-day,VPN,44
+USA,2022,Malware,Banking,46.75,239200,Nation-state,Social Engineering,Encryption,8
+Australia,2019,Man-in-the-Middle,Banking,27.0,286038,Nation-state,Social Engineering,Encryption,43
+Australia,2020,Phishing,Banking,42.03,454763,Hacker Group,Social Engineering,Firewall,14
+UK,2023,Ransomware,Banking,49.89,638668,Nation-state,Social Engineering,Encryption,47
+Brazil,2018,Malware,Banking,17.52,334945,Nation-state,Weak Passwords,Antivirus,33
+Japan,2015,Ransomware,Banking,6.57,443408,Hacker Group,Weak Passwords,Encryption,71
+USA,2017,Man-in-the-Middle,Banking,59.54,839892,Nation-state,Weak Passwords,Encryption,20
+China,2022,SQL Injection,Banking,1.16,297461,Hacker Group,Zero-day,Firewall,15
+Japan,2020,Ransomware,Banking,37.38,273660,Insider,Weak Passwords,Firewall,6
+China,2018,Man-in-the-Middle,Banking,9.77,881294,Insider,Unpatched Software,AI-based Detection,3
+India,2023,Ransomware,Banking,42.02,827952,Hacker Group,Unpatched Software,AI-based Detection,21
+India,2024,Malware,Banking,14.01,141437,Nation-state,Weak Passwords,Firewall,10
+Australia,2018,Malware,Banking,68.32,843891,Unknown,Weak Passwords,Antivirus,31
+France,2024,Ransomware,Banking,97.53,759522,Unknown,Weak Passwords,VPN,39
+UK,2024,Ransomware,Banking,12.22,860343,Hacker Group,Weak Passwords,Antivirus,42
+Australia,2018,SQL Injection,Banking,50.23,793612,Nation-state,Zero-day,Firewall,12
+UK,2016,Malware,Banking,49.92,848188,Nation-state,Unpatched Software,VPN,12
+Japan,2020,SQL Injection,Banking,64.25,877560,Nation-state,Weak Passwords,Encryption,61
+UK,2021,Man-in-the-Middle,Banking,71.88,757595,Insider,Weak Passwords,VPN,40
+Russia,2016,Ransomware,Banking,28.79,183711,Insider,Zero-day,Encryption,50
+Germany,2016,Phishing,Banking,40.18,153211,Nation-state,Weak Passwords,Encryption,43
+Japan,2022,Phishing,Banking,12.42,570853,Unknown,Unpatched Software,Encryption,4
+USA,2023,SQL Injection,Banking,98.91,995462,Unknown,Unpatched Software,Firewall,33
+Russia,2016,DDoS,Banking,87.62,922456,Insider,Zero-day,VPN,67
+Brazil,2021,SQL Injection,Banking,4.34,258021,Hacker Group,Unpatched Software,Encryption,46
+India,2022,SQL Injection,Banking,27.86,310150,Unknown,Unpatched Software,AI-based Detection,21
+India,2022,DDoS,Banking,92.23,626017,Unknown,Unpatched Software,Antivirus,1
+Germany,2018,Man-in-the-Middle,Banking,89.87,15909,Nation-state,Zero-day,Antivirus,19
+UK,2023,Man-in-the-Middle,Banking,24.28,998547,Unknown,Weak Passwords,Antivirus,46
+India,2024,DDoS,Banking,47.1,21292,Insider,Social Engineering,Antivirus,10
+Australia,2023,Malware,Banking,25.7,993215,Nation-state,Zero-day,AI-based Detection,56
+Australia,2017,DDoS,Banking,16.58,744201,Hacker Group,Zero-day,VPN,7
+Japan,2017,Phishing,Banking,61.33,762300,Nation-state,Social Engineering,VPN,20
+China,2019,DDoS,Banking,33.88,761910,Hacker Group,Zero-day,Antivirus,27
+Japan,2022,SQL Injection,Banking,34.03,700439,Insider,Zero-day,Encryption,41
+UK,2024,Phishing,Banking,66.65,170892,Unknown,Zero-day,AI-based Detection,47
+Russia,2023,DDoS,Banking,78.71,315219,Unknown,Social Engineering,Antivirus,30
+China,2023,Phishing,Banking,55.94,383589,Unknown,Weak Passwords,Firewall,7
+France,2016,DDoS,Banking,77.29,120341,Nation-state,Zero-day,VPN,45
+Germany,2021,SQL Injection,Banking,69.07,264662,Insider,Social Engineering,AI-based Detection,46
+Russia,2019,Malware,Banking,98.59,148622,Nation-state,Weak Passwords,Firewall,6
+Japan,2020,Man-in-the-Middle,Banking,73.85,278424,Nation-state,Zero-day,Encryption,9
+USA,2015,DDoS,Banking,98.39,306320,Insider,Unpatched Software,AI-based Detection,41
+Australia,2022,Phishing,Banking,64.07,800131,Unknown,Zero-day,AI-based Detection,69
+UK,2015,Ransomware,Banking,32.0,712739,Nation-state,Weak Passwords,Antivirus,17
+Russia,2017,SQL Injection,Banking,76.84,883919,Hacker Group,Social Engineering,VPN,8
+Russia,2019,Phishing,Banking,58.38,826778,Insider,Zero-day,AI-based Detection,59
+USA,2016,Man-in-the-Middle,Banking,57.26,852868,Unknown,Unpatched Software,Firewall,8
+India,2018,Malware,Banking,20.76,68718,Insider,Social Engineering,Encryption,47
+Russia,2018,Malware,Banking,23.14,159475,Insider,Zero-day,Encryption,19
+Australia,2015,Phishing,Banking,99.2,666877,Nation-state,Weak Passwords,Antivirus,28
+China,2017,Phishing,Banking,38.69,240400,Unknown,Weak Passwords,Encryption,10
+USA,2022,Ransomware,Banking,34.58,322611,Unknown,Unpatched Software,VPN,16
+Russia,2022,DDoS,Banking,84.09,153829,Hacker Group,Weak Passwords,VPN,6
+France,2021,SQL Injection,Banking,78.89,704427,Hacker Group,Zero-day,VPN,30
+Brazil,2015,Ransomware,Banking,63.14,545908,Insider,Social Engineering,AI-based Detection,2
+India,2019,DDoS,Banking,14.98,849664,Unknown,Social Engineering,Antivirus,40
+Russia,2019,Ransomware,Banking,28.14,594170,Nation-state,Social Engineering,AI-based Detection,53
+UK,2021,Malware,Banking,60.14,191427,Nation-state,Zero-day,Encryption,56
+France,2025,Ransomware,Finance,2.3,100000,REvil,Supply Chain,Backup Recovery,336
+France,2025,Ransomware,Fintech,25.0,500000,Unknown,Third-party Server,Isolation,504
+USA,2024,Ransomware,Banking,70.0,1500000,REvil,Software Exploitation,Incident Response Team,528
+France,2024,Phishing,Finance,5.9,800000,Unknown,Social Engineering,User Training,72
+USA,2023,Data Breach,Finance,150.0,10000000,Unknown,Database Vulnerability,Multi-factor Authentication,480
+Germany,2023,Ransomware,Banking,18.0,1200000,Conti,Email Phishing,Network Segmentation,360
+UK,2023,APT,Finance,30.0,2500000,APT29,Zero-day Exploit,Threat Intelligence,672
+Russia,2022,APT,Banking,11.0,500000,OPERA1ER,Network Intrusion,Endpoint Detection,480
+France,2022,Ransomware,Fintech,12.0,750000,LockBit,Remote Access,Backup Recovery,240
+USA,2022,Supply Chain,Finance,85.0,3000000,Lapsus$,Third-party Software,Vendor Assessment,720
+France,2021,Ransomware,Banking,8.0,600000,DarkSide,VPN Vulnerability,Incident Response,168
+USA,2021,Supply Chain,Finance,200.0,18000,SolarWinds hackers,Software Supply Chain,Code Signing,2160
+USA,2021,Ransomware,Finance,1.0,50000,NetWalker,Email Attachment,Email Filtering,120
+UK,2020,Ransomware,Finance,6.0,200000,REvil,Remote Desktop,Isolation,192
+USA,2020,Data Breach,Finance,440.0,440000000,Unknown,Database Misconfiguration,Access Control,48
+UK,2019,Ransomware,Fintech,2.3,150000,REvil,Network Vulnerability,Bitcoin Payment,720
+USA,2019,Malware,Banking,1000.0,100000000,Carbanak,Phishing Email,Network Monitoring,8760
+France,2018,APT,Banking,7.0,300000,OPERA1ER,Banking Software,Fraud Detection,240
+India,2018,ATM Skimming,Banking,13.5,32000,Lazarus Group,ATM Software,ATM Upgrade,168
+USA,2017,Data Breach,Finance,1400.0,147000000,Unknown,Web Application,Credit Monitoring,2160
+USA,2016,Mobile Payment Fraud,Fintech,15.0,250000,Unknown,Mobile App Vulnerability,App Update,168
+Russia,2015,Banking Trojan,Banking,1000.0,1000000,Carbanak,Phishing Campaign,International Cooperation,8760
+USA,2015,Data Breach,Finance,5.5,25000,Unknown,Database Access,Data Encryption,240
+Nigeria,2021,Ransomware,Banking,2.0,150000,Unknown,Network Intrusion,Backup Recovery,72
+South Africa,2024,Data Breach,Banking,5.5,41000,Unknown,Phishing,Multi-factor Authentication,240
+Kenya,2023,Ransomware,Banking,1.2,75000,LockBit,Remote Access,Backup Recovery,96
+Morocco,2023,Ransomware,Finance,1.8,40000,Unknown,Insider Threat,Network Segmentation,168
+Senegal,2021,Card Fraud,Banking,1.6,12000,Local Gang,Card Cloning,Chip Cards,36
+Egypt,2019,Ransomware,Banking,2.1,50000,REvil,Malware,Backup Recovery,120
+Ghana,2022,Phishing,Finance,0.9,34000,Remote Phisher,Social Engineering,User Training,24
+Nigeria,2023,Ransomware,Fintech,4.4,67000,Unknown,Cloud Misconfiguration,Cloud Security Audit,144
+South Africa,2023,Ransomware,Finance,2.3,90000,Unknown,Zero-day Exploit,Patch Management,192
+Nigeria,2023,Phishing,Banking,1.6,10500,Unknown,Human Error,User Training,36
+Kenya,2024,Ransomware,Banking,2.2,21700,LockBit,Remote Access,Backup Recovery,120
+Ghana,2022,BEC/FOVI,Finance,4.1,1800,Black Axe,Business Email,Incident Response,28
+South Africa,2025,Data Breach,Fintech,12.0,45000,Unknown,API Exposure,Multi-factor Auth,250
+Morocco,2023,DDoS,Banking,2.7,2100,Anonymous,Network Flood,DDoS Protection,12
+Egypt,2020,Scam,Banking,1.9,12000,Phishing Group,Phishing Site,User Awareness,24
+Senegal,2021,Ransomware,Banking,0.9,7800,Unknown,Network Intrusion,Backup,96
+South Africa,2025,BEC/FOVI,Finance,8.2,2750,Black Axe,Business Email,Threat Intelligence,16
+Nigeria,2025,Mobile Payment,Fintech,2.1,6180,SIM Swapper,SIM Swap,SIM Lock,48
