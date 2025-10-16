@@ -392,13 +392,13 @@ Ce projet est un **mini-projet académique** réalisé dans le cadre d'une prés
 
 ## 👥 Équipe
 
-Ce projet a été développé par :
+Ce projet a été développé par trois étudiants en **Big Data & Intelligence Artificielle** :
 
-| Membre                     | Rôle                                     | Photo                                           |
-| -------------------------- | ---------------------------------------- | ----------------------------------------------- |
-| **Karamo Sylla**           | Lead Developer & Data Analyst            | ![Karamo](https://i.imgur.com/N0EjAdE.jpeg)     |
-| **Bachirou Konaté**        | Backend Developer & API Architect        | ![Bachirou](https://i.imgur.com/Yz2QalM.png)    |
-| **Michel Sagesse Kolié**   | Frontend Developer & UI/UX Designer      | ![Michel](https://i.imgur.com/YngA7Rt.jpeg)     |
+| Membre                     | Rôle                                     | Description                                                          | Photo                                           |
+| -------------------------- | ---------------------------------------- | -------------------------------------------------------------------- | ----------------------------------------------- |
+| **Bachirou Konaté**        | Collecte des Données                     | Le chasseur d'informations, le carburant de la machine               | ![Bachirou](https://i.imgur.com/Yz2QalM.png)    |
+| **Michel Sagesse Kolié**   | Analyse & Traitement                     | La vision d'ensemble, le cerveau analytique                          | ![Michel](https://i.imgur.com/YngA7Rt.jpeg)     |
+| **Karamo Sylla**           | Visualisation & Interface                | L'architecte visuel qui transforme les données brutes en récits captivants | ![Karamo](https://i.imgur.com/N0EjAdE.jpeg)     |
 
 **Équipe CyberAttack Analytics**
 _Octobre 2025_
