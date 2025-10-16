@@ -10,8 +10,8 @@ export default function Navbar() {
 
   const links = [
     { href: '/', label: 'Tableau de Bord', Icon: Shield },
-    { href: '/univariate', label: 'Analyse Univariée', Icon: BarChart3 },
-    { href: '/bivariate', label: 'Analyse Bivariée', Icon: TrendingUp },
+    { href: '/univariate', label: 'Visualisation Univariée', Icon: BarChart3 },
+    { href: '/bivariate', label: 'Visualisation Bivariée', Icon: TrendingUp },
     { href: '/team', label: 'Équipe', Icon: Users },
   ]
 
@@ -47,6 +47,7 @@ export default function Navbar() {
                 <Link
                   key={link.href}
                   href={link.href}
+                  prefetch={true}
                   className={cn(
                     "relative px-4 py-2 text-sm font-bold font-mono uppercase tracking-wider transition-all duration-300 rounded-lg group overflow-hidden",
                     pathname === link.href

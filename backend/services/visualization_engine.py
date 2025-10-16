@@ -92,7 +92,6 @@ class VisualizationEngine:
             attacks_by_year,
             x='Year',
             y='Count',
-            title='📈 Évolution des Cyberattaques dans le Secteur Financier (2015-2025)',
             markers=True,
             template=self.template
         )
@@ -111,7 +110,8 @@ class VisualizationEngine:
             height=500,
             paper_bgcolor='rgba(0,0,0,0)',
             plot_bgcolor='rgba(0,0,0,0)',
-            font=dict(color='#ffffff', family='monospace')
+            font=dict(color='#ffffff', family='monospace'),
+            margin=dict(t=80, b=50, l=50, r=50)
         )
 
         return json.loads(fig.to_json())
@@ -132,7 +132,6 @@ class VisualizationEngine:
             attack_type_dist,
             values='Count',
             names='Attack Type',
-            title='🎯 Répartition des Types d\'Attaques Ciblant les Institutions Financières',
             hole=0.4,  # Donut chart
             template=self.template,
             color_discrete_sequence=px.colors.sequential.Reds_r
@@ -149,7 +148,8 @@ class VisualizationEngine:
             plot_bgcolor='rgba(0,0,0,0)',
             font=dict(color='#ffffff', family='monospace'),
             showlegend=True,
-            legend=dict(orientation='v', yanchor='middle', y=0.5, xanchor='left', x=1.1)
+            legend=dict(orientation='v', yanchor='middle', y=0.5, xanchor='left', x=1.1),
+            margin=dict(t=100, b=50, l=50, r=50)
         )
 
         return json.loads(fig.to_json())
@@ -170,7 +170,6 @@ class VisualizationEngine:
             source_dist,
             x='Attack Source',
             y='Count',
-            title='🔍 Origines des Menaces Cyber dans le Secteur Financier',
             template=self.template,
             color='Count',
             color_continuous_scale='Oranges'
@@ -250,7 +249,6 @@ class VisualizationEngine:
             x='Count',
             y='Country',
             orientation='h',
-            title='🌍 Cyberattaques par Pays - Secteur Bancaire et Financier',
             template=self.template,
             color='Count',
             color_continuous_scale='Reds'

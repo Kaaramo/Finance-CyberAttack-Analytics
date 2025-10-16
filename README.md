@@ -46,7 +46,7 @@ Application web full-stack permettant d'analyser, visualiser et comprendre l'év
 
 ### Dashboard Principal
 
-- **4 KPIs Globaux** : Menaces détectées, impact financier, utilisateurs compromis, temps de réponse
+- **4 KPIs Globaux** : Menaces détectées, impact financier, utilisateurs compromis, temps de reponse
 - **2 Tableaux Analytiques** : Top 5 incidents critiques, Top 10 pays ciblés
 - **Carte Mondiale Interactive** : Répartition géographique avec bulles proportionnelles aux pertes
 
@@ -394,11 +394,11 @@ Ce projet est un **mini-projet académique** réalisé dans le cadre d'une prés
 
 Ce projet a été développé par trois étudiants en **Big Data & Intelligence Artificielle** :
 
-| Membre                     | Rôle                                     | Description                                                          | Photo                                           |
-| -------------------------- | ---------------------------------------- | -------------------------------------------------------------------- | ----------------------------------------------- |
-| **Bachirou Konaté**        | Collecte des Données                     | Le chasseur d'informations, le carburant de la machine               | ![Bachirou](https://i.imgur.com/Yz2QalM.png)    |
-| **Michel Sagesse Kolié**   | Analyse & Traitement                     | La vision d'ensemble, le cerveau analytique                          | ![Michel](https://i.imgur.com/YngA7Rt.jpeg)     |
-| **Karamo Sylla**           | Visualisation & Interface                | L'architecte visuel qui transforme les données brutes en récits captivants | ![Karamo](https://i.imgur.com/N0EjAdE.jpeg)     |
+| Membre                   | Rôle                      | Description                                                                | Photo                                        |
+| ------------------------ | ------------------------- | -------------------------------------------------------------------------- | -------------------------------------------- |
+| **Bachirou Konaté**      | Collecte des Données      | Le chasseur d'informations, le carburant de la machine                     | ![Bachirou](https://i.imgur.com/Yz2QalM.png) |
+| **Michel Sagesse Kolié** | Analyse & Traitement      | La vision d'ensemble, le cerveau analytique                                | ![Michel](https://i.imgur.com/YngA7Rt.jpeg)  |
+| **Karamo Sylla**         | Visualisation & Interface | L'architecte visuel qui transforme les données brutes en récits captivants | ![Karamo](https://i.imgur.com/N0EjAdE.jpeg)  |
 
 **Équipe CyberAttack Analytics**
 _Octobre 2025_

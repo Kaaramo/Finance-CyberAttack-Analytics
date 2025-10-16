@@ -82,7 +82,7 @@ export default function DashboardPage() {
               TABLEAU DE BORD DE CYBER-MENACES
             </h1>
             <p className="text-muted-foreground">
-              Analyse en temps réel des cyberattaques dans le secteur financier (2015-2025)
+              Analyse des cyberattaques dans le secteur financier (2015-2025)
             </p>
           </div>
 

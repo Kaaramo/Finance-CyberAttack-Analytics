@@ -58,10 +58,10 @@ export default function BivariatePage() {
         {/* Hero Section */}
         <section className="mb-12">
           <h1 className="text-4xl font-bold mb-2 bg-gradient-to-r from-purple-500 via-pink-500 to-red-600 bg-clip-text text-transparent font-mono">
-            ANALYSE BIVARIÉE
+            VISUALISATION BIVARIÉE
           </h1>
           <p className="text-muted-foreground text-lg">
-            Relations et corrélations entre variables - Analyses croisées multidimensionnelles
+            Relations et corrélations entre variables - Visualisations croisées multidimensionnelles
           </p>
         </section>
 

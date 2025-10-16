@@ -1,9 +1,11 @@
 "use client"
 
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useState } from 'react'
 import dynamic from 'next/dynamic'
 
-const Plot = dynamic(() => import('react-plotly.js'), { ssr: false })
+const Plot = dynamic(() => import('react-plotly.js'), {
+  ssr: false,
+})
 
 interface ChartProps {
   data: any
@@ -12,13 +14,31 @@ interface ChartProps {
 }
 
 export default function Chart({ data, layout, config }: ChartProps) {
+  const [isClient, setIsClient] = useState(false)
   const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
+    setIsClient(true)
     if (data) {
       setIsLoading(false)
     }
   }, [data])
+
+  // Ne rien afficher tant que nous ne sommes pas côté client
+  if (!isClient) {
+    return (
+      <div className="relative flex h-[500px] items-center justify-center rounded-xl border-2 border-cyan-500/30 bg-gradient-to-br from-card to-background overflow-hidden shadow-2xl shadow-cyan-500/10">
+        <div className="absolute inset-0 opacity-5" style={{
+          backgroundImage: 'linear-gradient(rgba(6, 182, 212, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(6, 182, 212, 0.1) 1px, transparent 1px)',
+          backgroundSize: '20px 20px'
+        }}></div>
+        <div className="relative z-10 flex flex-col items-center gap-4">
+          <div className="animate-spin h-12 w-12 border-4 border-cyan-500/20 border-t-cyan-500 rounded-full"></div>
+          <div className="text-cyan-400 font-mono text-sm animate-pulse">Initialisation...</div>
+        </div>
+      </div>
+    )
+  }
 
   if (isLoading || !data) {
     return (
@@ -53,6 +73,20 @@ export default function Chart({ data, layout, config }: ChartProps) {
     paper_bgcolor: 'rgba(0,0,0,0)',
     plot_bgcolor: 'rgba(0,0,0,0)',
     font: { color: '#ffffff', family: 'monospace' },
+    title: {
+      font: {
+        size: 14,
+        color: '#ffffff',
+        family: 'monospace'
+      },
+      xref: 'paper',
+      x: 0,
+      xanchor: 'left',
+      y: 1,
+      yanchor: 'top',
+      pad: { t: 0, b: 10, l: 0 }
+    },
+    margin: { t: 60, b: 50, l: 50, r: 50 },
     ...layout
   }
 
@@ -68,14 +102,16 @@ export default function Chart({ data, layout, config }: ChartProps) {
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cyan-500/5 to-transparent translate-y-[-100%] group-hover:translate-y-[100%] transition-transform duration-1500 pointer-events-none"></div>
 
       <div className="relative z-10">
-        <Plot
-          data={data.data || data}
-          layout={{ ...defaultLayout, ...(data.layout || {}) }}
-          config={defaultConfig}
-          className="w-full"
-          useResizeHandler
-          style={{ width: '100%', height: '100%' }}
-        />
+        {isClient && data && (
+          <Plot
+            data={data.data || data}
+            layout={{ ...defaultLayout, ...(data.layout || {}) }}
+            config={defaultConfig}
+            className="w-full"
+            useResizeHandler={true}
+            style={{ width: '100%', height: '100%' }}
+          />
+        )}
       </div>
 
       {/* Corner decorations */}
