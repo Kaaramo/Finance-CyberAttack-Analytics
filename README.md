@@ -4,6 +4,10 @@
 
 Application web full-stack permettant d'analyser, visualiser et comprendre l'évolution des menaces cyber ciblant les services financiers à travers 9 visualisations interactives et 4 KPIs stratégiques.
 
+## 🎥 Démonstration Vidéo
+
+**[▶️ Voir la démonstration complète de la plateforme](https://www.tella.tv/video/finance-cyberattack-analytics-1-235i)**
+
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.109-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
 [![Python](https://img.shields.io/badge/Python-3.9+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
