@@ -140,13 +140,13 @@ cd "Mini Projet Securité Informatique"
 ### 2. Setup Backend (Python)
 
 ```bash
-# Naviguer vers le backend
+# Veuillez Naviguer vers le backend
 cd backend
 
 # Créer l'environnement virtuel
 python -m venv venv
 
-# Activer l'environnement virtuel
+# Penser à Activer l'environnement virtuel
 # Windows :
 venv\Scripts\activate
 # macOS/Linux :
