@@ -54,7 +54,7 @@ class VisualizationEngine:
             },
             color_continuous_scale='Reds',
             size_max=50,
-            title='🌍 Cartographie Mondiale des Cyberattaques - Secteur Bancaire (2015-2025)',
+            title='Cartographie Mondiale des Cyberattaques - Secteur Bancaire (2015-2025)',
             template=self.template
         )
 
@@ -209,7 +209,7 @@ class VisualizationEngine:
             x='Count',
             y='Vulnerability',
             orientation='h',
-            title='🛡️ Failles de Sécurité Exploitées - Systèmes Bancaires',
+            title='Failles de Sécurité Exploitées - Systèmes Bancaires',
             template=self.template,
             color='Count',
             color_continuous_scale='Reds'
@@ -298,7 +298,7 @@ class VisualizationEngine:
             y='Count',
             color='Attack Type',
             barmode='group',
-            title='🌍 Répartition des Types d\'Attaques par Pays (Top 5) - Secteur Financier',
+            title='Répartition des Types d\'Attaques par Pays (Top 5) - Secteur Financier',
             template=self.template
         )
 
@@ -343,7 +343,7 @@ class VisualizationEngine:
             y='Financial Loss (in Million $)',
             color='Attack Type',
             markers=True,
-            title='📅 Évolution des Pertes Financières par Type de Menace (2015-2025)',
+            title='Évolution des Pertes Financières par Type de Menace (2015-2025)',
             template=self.template
         )
 
@@ -410,7 +410,7 @@ class VisualizationEngine:
         ))
 
         fig.update_layout(
-            title='⚡ Temps Moyen de Résolution par Mécanisme de Défense - Secteur Bancaire',
+            title='Temps Moyen de Résolution par Mécanisme de Défense - Secteur Bancaire',
             xaxis_title='Temps Moyen de Résolution (heures)',
             yaxis_title='Mécanisme de Défense',
             template=self.template,

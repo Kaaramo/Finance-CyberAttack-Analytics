@@ -57,7 +57,7 @@ export default function TeamPage() {
               Notre Équipe
             </h1>
             <p className="mx-auto max-w-2xl text-xl text-gray-400">
-              Les 😉 experts derrière le CyberAttack Analytics Dashboard
+              Les Etudiants derrière le CyberAttack Analytics Dashboard
             </p>
           </motion.div>
         </div>

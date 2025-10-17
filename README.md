@@ -1,12 +1,12 @@
-# 🛡️ CyberAttack Analytics Dashboard
+# CyberAttack Analytics Dashboard
 
 > **Plateforme d'analyse et de visualisation des cyberattaques dans le secteur financier (2015-2025)**
 
 Application web full-stack permettant d'analyser, visualiser et comprendre l'évolution des menaces cyber ciblant les services financiers à travers 9 visualisations interactives et 4 KPIs stratégiques.
 
-## 🎥 Démonstration Vidéo
+## Démonstration Vidéo
 
-**[▶️ Voir la démonstration complète de la plateforme](https://www.tella.tv/video/finance-cyberattack-analytics-1-235i)**
+**[Voir la démonstration complète de la plateforme](https://www.tella.tv/video/finance-cyberattack-analytics-1-235i)**
 
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.109-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
@@ -15,38 +15,38 @@ Application web full-stack permettant d'analyser, visualiser et comprendre l'év
 
 ---
 
-## 📋 Table des Matières
+## Table des Matières
 
-- [À Propos](#-à-propos)
-- [Fonctionnalités](#-fonctionnalités)
-- [Stack Technique](#-stack-technique)
-- [Architecture](#-architecture)
-- [Installation](#-installation)
-- [Démarrage](#-démarrage)
-- [Structure du Projet](#-structure-du-projet)
-- [API Endpoints](#-api-endpoints)
-- [Pages de l'Application](#-pages-de-lapplication)
-- [Dataset](#-dataset)
-- [Développement](#-développement)
-- [Équipe](#-équipe)
-- [Licence](#-licence)
+- [À Propos](#à-propos)
+- [Fonctionnalités](#fonctionnalités)
+- [Stack Technique](#stack-technique)
+- [Architecture](#architecture)
+- [Installation](#installation)
+- [Démarrage](#démarrage)
+- [Structure du Projet](#structure-du-projet)
+- [API Endpoints](#api-endpoints)
+- [Pages de l'Application](#pages-de-lapplication)
+- [Dataset](#dataset)
+- [Développement](#développement)
+- [Équipe](#équipe)
+- [Licence](#licence)
 
 ---
 
-## 🎯 À Propos
+## À Propos
 
 **CyberAttack Analytics Dashboard** est un projet académique de data visualization focalisé sur l'analyse des cyberattaques dans le secteur bancaire et financier entre 2015 et 2025. Il s'appuie sur un dataset de **486 incidents réels** pour offrir une vision complète des menaces cyber contemporaines.
 
 ### Objectifs
 
-- 📊 **Visualiser** la distribution temporelle et géographique des attaques
-- 🔍 **Analyser** les types d'attaques, sources et vulnérabilités exploitées
-- 💰 **Quantifier** l'impact financier et humain des cybermenaces
-- ⚡ **Évaluer** l'efficacité des mécanismes de défense déployés
+- **Visualiser** la distribution temporelle et géographique des attaques
+- **Analyser** les types d'attaques, sources et vulnérabilités exploitées
+- **Quantifier** l'impact financier et humain des cybermenaces
+- **Évaluer** l'efficacité des mécanismes de défense déployés
 
 ---
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
 ### Dashboard Principal
 
@@ -56,28 +56,28 @@ Application web full-stack permettant d'analyser, visualiser et comprendre l'év
 
 ### Analyse Univariée (4 graphiques)
 
-- 📈 Évolution temporelle des cyberattaques (2015-2025)
-- 🎯 Répartition des types d'attaques (Donut chart)
-- 🔍 Origines des menaces (Bar chart)
-- 🌍 Distribution géographique des incidents (Horizontal bar)
+- Évolution temporelle des cyberattaques (2015-2025)
+- Répartition des types d'attaques (Donut chart)
+- Origines des menaces (Bar chart)
+- Distribution géographique des incidents (Horizontal bar)
 
 ### Analyse Bivariée (3 graphiques)
 
-- 📅 Évolution des pertes financières par type de menace
-- 🌍 Répartition des types d'attaques par pays (Top 5)
-- ⚡ Efficacité des mécanismes de défense (avec code couleur)
+- Évolution des pertes financières par type de menace
+- Répartition des types d'attaques par pays (Top 5)
+- Efficacité des mécanismes de défense (avec code couleur)
 
 ### Design & UX
 
-- 🎨 Interface cybersécurité moderne avec dark mode
-- ⚡ Animations fluides (count-up, fade-in, scanning effects)
-- 📱 Responsive design (Desktop, Tablet, Mobile)
-- 🔒 Icônes Lucide React professionnelles
-- 🎛️ Graphiques interactifs sans barre d'outils encombrante
+- Interface cybersécurité moderne avec dark mode
+- Animations fluides (count-up, fade-in, scanning effects)
+- Responsive design (Desktop, Tablet, Mobile)
+- Icônes Lucide React professionnelles
+- Graphiques interactifs sans barre d'outils encombrante
 
 ---
 
-## 🛠️ Stack Technique
+## Stack Technique
 
 ### Frontend
 
@@ -102,7 +102,7 @@ Application web full-stack permettant d'analyser, visualiser et comprendre l'év
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```mermaid
 graph LR
@@ -122,7 +122,7 @@ graph LR
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Prérequis
 
@@ -130,14 +130,14 @@ graph LR
 - **Node.js** ≥ 18
 - **npm** ≥ 9
 
-### 1️⃣ Cloner le Projet
+### 1. Cloner le Projet
 
 ```bash
 git clone <repository-url>
 cd "Mini Projet Securité Informatique"
 ```
 
-### 2️⃣ Setup Backend (Python)
+### 2. Setup Backend (Python)
 
 ```bash
 # Naviguer vers le backend
@@ -156,7 +156,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Setup Frontend (Node.js)
+### 3. Setup Frontend (Node.js)
 
 ```bash
 # Naviguer vers le frontend (depuis la racine)
@@ -168,7 +168,7 @@ npm install
 
 ---
 
-## 🚀 Démarrage
+## Démarrage
 
 ### Lancer le Backend (Terminal 1)
 
@@ -180,8 +180,8 @@ venv\Scripts\activate  # Windows
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
-✅ **Backend disponible** : [`http://localhost:8000`](http://localhost:8000)
-📚 **Documentation API** : [`http://localhost:8000/docs`](http://localhost:8000/docs)
+**Backend disponible** : [`http://localhost:8000`](http://localhost:8000)
+**Documentation API** : [`http://localhost:8000/docs`](http://localhost:8000/docs)
 
 ### Lancer le Frontend (Terminal 2)
 
@@ -190,11 +190,11 @@ cd frontend
 npm run dev
 ```
 
-✅ **Application disponible** : [`http://localhost:3000`](http://localhost:3000)
+**Application disponible** : [`http://localhost:3000`](http://localhost:3000)
 
 ---
 
-## 📂 Structure du Projet
+## Structure du Projet
 
 ```
 Mini Projet Securité Informatique/
@@ -216,11 +216,11 @@ Mini Projet Securité Informatique/
 │
 ├── frontend/                       # Application Next.js
 │   ├── app/
-│   │   ├── page.tsx                # 📊 Dashboard Principal
+│   │   ├── page.tsx                # Dashboard Principal
 │   │   ├── univariate/
-│   │   │   └── page.tsx            # 📈 Analyse Univariée
+│   │   │   └── page.tsx            # Analyse Univariée
 │   │   ├── bivariate/
-│   │   │   └── page.tsx            # 📉 Analyse Bivariée
+│   │   │   └── page.tsx            # Analyse Bivariée
 │   │   ├── components/
 │   │   │   ├── Navbar.tsx          # Navigation
 │   │   │   ├── KPICard.tsx         # Carte KPI animée
@@ -240,7 +240,7 @@ Mini Projet Securité Informatique/
 
 ---
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Dashboard
 
@@ -270,7 +270,7 @@ Mini Projet Securité Informatique/
 
 ---
 
-## 📄 Pages de l'Application
+## Pages de l'Application
 
 ### 1. Dashboard Principal (`/`)
 
@@ -299,7 +299,7 @@ Relations multivariées avec **3 graphiques** :
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Source** : `backend/data/dataset_final.csv`
 
@@ -324,7 +324,7 @@ Relations multivariées avec **3 graphiques** :
 
 ---
 
-## 💻 Développement
+## Développement
 
 ### Ajouter un Endpoint API
 
@@ -358,7 +358,7 @@ pytest                      # Tests unitaires (si configurés)
 
 ---
 
-## 🎨 Design System
+## Design System
 
 ### Palette de Couleurs
 
@@ -377,9 +377,9 @@ pytest                      # Tests unitaires (si configurés)
 
 ---
 
-## 📝 Notes Importantes
+## Notes Importantes
 
-⚠️ **Points d'attention** :
+**Points d'attention** :
 
 - Toujours **activer l'environnement virtuel** avant de lancer le backend
 - Le dataset doit être présent dans `backend/data/dataset_final.csv`
@@ -388,13 +388,13 @@ pytest                      # Tests unitaires (si configurés)
 
 ---
 
-## 📄 Licence
+## Licence
 
 Ce projet est un **mini-projet académique** réalisé dans le cadre d'une présentation sur la cybersécurité dans le secteur financier.
 
 ---
 
-## 👥 Équipe
+## Équipe
 
 Ce projet a été développé par trois étudiants en **Big Data & Intelligence Artificielle** :
 

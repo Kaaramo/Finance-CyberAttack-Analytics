@@ -30,11 +30,11 @@ async def startup_event():
     try:
         data_loader.load_dataset()
         if data_loader.validate_dataset():
-            print("✅ Dataset chargé et validé avec succès!")
+            print("Dataset chargé et validé avec succès!")
         else:
-            print("⚠️ Dataset chargé mais validation échouée")
+            print("Dataset chargé mais validation échouée")
     except Exception as e:
-        print(f"❌ Erreur lors du chargement du dataset: {e}")
+        print(f"Erreur lors du chargement du dataset: {e}")
 
 @app.get("/")
 async def root():
